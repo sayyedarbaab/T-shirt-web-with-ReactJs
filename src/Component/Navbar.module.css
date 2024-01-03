@@ -1,0 +1,39 @@
+.container{
+    margin: 0 auto;
+    max-width: 1280px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1280px;
+    margin: 0 auto;
+    height: 72px;
+    align-items: center;
+}
+.logo img{
+    width: 100%;
+    height: 10vh;
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+    gap: 34px;
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+.btn{
+    /* all:unset;
+    padding: 6px 16px;
+    background-color: red;
+    height: 32px;
+    color: white;
+    font-weight: 500; */
+    border: none;
+    background-color: darkcyan;
+    padding: 6px 16px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+}

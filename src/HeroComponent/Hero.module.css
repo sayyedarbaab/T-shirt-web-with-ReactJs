@@ -1,0 +1,48 @@
+.hero{
+    display: flex;
+    margin: 0 auto;
+    max-width: 1280px;
+    align-items: center;
+    height: 72vh;
+}
+.hero h1{
+    font-weight: 800px;
+    font-size: 75px;
+    margin-bottom: 6px;
+}
+.hero p{
+    font-weight: 600px;
+    color: darkgray;
+}
+.herobtn{
+    display: flex;
+    gap: 40px;
+}
+.shopbtn{
+    background-color: red;
+    height: 6vh;
+    width: 12%;
+    color: white;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.secondbtn{
+    background: transparent;
+    border: 3px solid gray;
+    font: bold;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.shopping p{
+    color: black;
+    margin-top: 25px;
+    font-size: 20px;
+}
+.social{
+    display: flex;
+    gap: 20px;
+}
+.social img{
+    height: 4vh;
+    margin-top: 5px;
+}
